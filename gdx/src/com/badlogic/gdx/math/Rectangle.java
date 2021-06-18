@@ -350,7 +350,7 @@ public class Rectangle implements Serializable, Shape2D {
 	}
 
 	/** Fits this rectangle into another rectangle while maintaining aspect ratio. This scales and centers the rectangle to the
-	 * other rectangle (e.g. Scaling a texture within a arbitrary cell without squeezing)
+	 * other rectangle (e.g. Scaling a texture within an arbitrary cell without squeezing)
 	 * @param rect the other rectangle to fit this rectangle inside
 	 * @return this rectangle for chaining
 	 * @see Scaling */
